@@ -26,7 +26,7 @@ O objetivo é apresentar projetos, habilidades e também oferecer uma experiênc
 - **HTML5** – Estrutura do site  
 - **CSS3** – Estilização e layout  
 - **JavaScript (JS)**
-- – Lógica do quiz e interatividade  
+- **Lógica do quiz e interatividade  
 
 
 
