@@ -1,0 +1,49 @@
+/*caixa de perguntas quiz-2 */
+.caixa{
+    max-width:700px;
+    margin:50px auto;
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    text-align:center;
+}
+
+
+/*botão de iniciar o quiz-2 */
+#btn{
+    width: 100px;
+    padding:10px;
+    
+    
+}
+
+/**botão de passar para a proxima pergunta do quiz-2 */
+#proximo{
+    width: 100px;
+    padding:10px;
+}
+
+
+
+/*botões com as alternativas quiz-2 */
+button{
+    display:block;
+    width:700px;
+    margin:8px 0;
+    padding:20px;
+    cursor: pointer;
+    font-size:16px;
+}
+
+
+.correct{
+    background-color:rgb(16, 172, 21);
+    color:white;
+}
+.wrong{
+    background-color:#f01a0b;
+    color:white;
+}
+.hide{
+    display:none;
+}
