@@ -7,7 +7,7 @@ body{
 .container{
     max-width:700px;
     margin:50px auto;
-    background:white;
+    background:rgba(52, 12, 231, 0.384);
     padding:20px;
     border-radius:8px;
     text-align:center;
@@ -48,3 +48,4 @@ button{
 .hide{
     display:none;
 }
+
