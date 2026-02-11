@@ -89,10 +89,41 @@
 </div>
 
 </div>
+
+    <div class="recipiente" id="quiz-matematica" >
+    <!-- Tela inicial -->
+<div id="tlmt">
+  <h1>Matemática </h1>
+  <p>Teste seus conhecimentos respondendo às perguntas.</p>
+  <button id="bi">Iniciar</button>
+</div>
+
+<!-- Card do quiz -->
+<div id="card-quiz-3" class="hide">
+<h2 id="question-mt"></h2>
+<div id="answers-mt"></div>
+<p id="feedback-mt"></p>
+<button id="px" class="hide">Próxima</button>
+
+</div>
+
+<!-- Tela final -->
+
+<div id="res" class="hide">
+<h2>Resultado Final</h2>
+<p id="pt"></p>
+<button onclick="location.reload()">Reiniciar</button>
+</div>
+
+</div>
+
+
+    
 <script src="js/perguntas-dev.js"></script>
 <script src="js/quiz-web-dev.js"></script>
 
 <script src="js/perguntas-pt.js"></script>
 <script src="js/quiz-portugues.js"></script>
 </body>
+
 </html>
