@@ -1,4 +1,4 @@
-const startPt = document.getElementById("btn");
+  const startPt = document.getElementById("btn");
   const telaInicialPt = document.getElementById("tela-inicial");
   const quizCardPt = document.getElementById("quiz-2-card");
   const questionElPt = document.getElementById("question-pt");
@@ -11,7 +11,18 @@ const startPt = document.getElementById("btn");
   let currentQuestionPt  = 0;
   let pontuacaoPt = 0;
 
+  function embaralharPerguntasPt(perguntasPt){
+    for ( let i = perguntasPt.length -1;  i > 0; i--){
+        const indiceAleatorio = Math.floor(Math.random()* (i + 1));  
+        const temp = perguntasPt[i];
+        perguntasPt[i] = perguntasPt[indiceAleatorio];
+        perguntasPt[indiceAleatorio] = temp;
+
+    }
+}
+
   startPt.addEventListener("click", () => {
+    embaralharPerguntasPt(questionsPt)
     telaInicialPt.classList.add("hide");
     quizCardPt.classList.remove("hide");
     showQuestionPt();

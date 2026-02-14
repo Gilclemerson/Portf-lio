@@ -11,7 +11,18 @@ const ptElPtMt = document.getElementById("pt");
 let questaoAtualMt = 0
 let ptMt = 0
 
+function embaralharPerguntasMt(perguntasMt){
+        for( let i = perguntasMt.length -1; i > 0; i--){
+          const indiceAleatorio = Math.floor(Math.random() * (i + 1));
+
+          const temp = perguntasMt[i];
+          perguntasMt[i] = perguntasMt[indiceAleatorio];
+          perguntasMt[indiceAleatorio] = temp;
+        }
+}
+
 iniciarMt.addEventListener("click", () =>{
+  embaralharPerguntasMt(questoesMt)
   telaInicalMt.classList.add("hide")
   quizCardMt.classList.remove("hide")
    mostraQuestoesMt();
