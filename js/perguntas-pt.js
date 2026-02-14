@@ -1,5 +1,4 @@
 const questionsPt = [
-
   {
     question: "1. O que o acento agudo (´) indica e em quais vogais ele pode ser usado?",
     answers: [
@@ -101,6 +100,7 @@ const questionsPt = [
     correct: 1
   },
 
+
   {
     question: "O que é sílaba tônica e como as palavras são classificadas quanto à sua posição?",
     answers: [
@@ -180,79 +180,6 @@ const questionsPt = [
       "São palavras que nunca recebem acento"
     ],
     correct: 1
-  },
-
-    {
-      question: "Qual é a principal diferença entre ditongo e hiato?",
-      answers: [
-        "No ditongo, as vogais se separam; no hiato, elas ficam juntas.",
-        "No ditongo, as vogais ficam na mesma sílaba; no hiato, ficam em sílabas diferentes.",
-        "O ditongo ocorre apenas com a vogal 'A', enquanto o hiato ocorre com todas.",
-        "Não há diferença prática, ambos são nomes para encontros vocálicos."
-      ],
-      correct: 1 // (Ex: 'Noite' vs 'Sa-ú-de')
-    },
-    {
-      question: "O que são ditongos abertos e quais são os principais exemplos?",
-      answers: [
-        "São sons fechados como 'ou' e 'ei' em todas as palavras.",
-        "São os encontros 'ai', 'au' e 'iu', acentuados em qualquer posição.",
-        "São os sons pronunciados com a boca mais aberta: 'éi', 'éu' e 'ói'.",
-        "São encontros vocálicos que nunca recebem acento gráfico."
-      ],
-      correct: 2
-    },
-    {
-      question: "Por que 'ideia' perdeu o acento, mas 'herói' continua acentuado?",
-      answers: [
-        "Porque o novo acordo retirou o acento de ditongos abertos em paroxítonas, mas manteve em oxítonas.",
-        "Porque 'ideia' é uma palavra muito comum e 'herói' é considerada rara.",
-        "Porque palavras terminadas em 'A' nunca podem ser acentuadas.",
-        "Houve um erro na reforma ortográfica e ambas deveriam ter acento."
-      ],
-      correct: 0
-    },
-    {
-      question: "Por que 'Méier' e 'destróier' são exceções e continuam acentuadas?",
-      answers: [
-        "Porque são nomes próprios e termos estrangeiros adaptados.",
-        "Porque a regra de acentuação das paroxítonas terminadas em 'R' prevalece sobre a do ditongo aberto.",
-        "Porque o ditongo nestas palavras é considerado fechado na pronúncia carioca.",
-        "Porque são palavras oxítonas terminadas em ditongo."
-      ],
-      correct: 1
-    },
-    {
-      question: "Qual é a regra para acentuar o 'I' ou 'U' em hiatos?",
-      answers: [
-        "Devem ser a primeira vogal do hiato e estar acompanhados de 'S'.",
-        "Sempre recebem acento se estiverem no final da palavra.",
-        "Devem ser a segunda vogal do hiato, estar sozinhos na sílaba (ou com 'S') e não vir antes de 'NH'.",
-        "Apenas o 'U' recebe acento quando forma hiato com a vogal 'O'."
-      ],
-      correct: 2 // (Ex: 'Sa-í-da', 'Ba-ú')
-    },
-    {
-      question: "Por que a palavra 'rainha' não é acentuada, apesar de possuir um hiato?",
-      answers: [
-        "Porque o 'I' está seguido de 'NH', o que proíbe o acento pela regra do hiato.",
-        "Porque é uma palavra oxítona terminada em 'A'.",
-        "Porque o 'I' do hiato não é a vogal tônica da palavra.",
-        "Porque palavras com mais de três sílabas perdem o acento no hiato."
-      ],
-      correct: 0
-    },
-    {
-      question: "Por que palavras como 'história' e 'túneis' recebem acento?",
-      answers: [
-        "Porque todas as palavras com mais de três sílabas devem ser acentuadas.",
-        "Porque são paroxítonas terminadas em ditongo.",
-        "Porque o acento serve apenas para indicar que a vogal é aberta.",
-        "Porque são proparoxítonas eventuais que terminam em hiato."
-      ],
-      correct: 1
-    }
-
-
+  }
 ];
 
