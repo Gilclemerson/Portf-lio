@@ -205,6 +205,30 @@ transition:0.3s;
 .hide {
     display: none;
   }
+
+/*barra de progresso*/
+  .progress-wrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.progress-circle{
+    width: 72px;
+    height: 72px ;
+    border-radius: 50%;
+    background: conic-gradient(#ff9800 0deg, #333 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.4s ease;
+}
+
+.progress-circle span{
+    font-size:14px;
+    font-weight:600px;
+    color:#fff;
+}
   
 
 
