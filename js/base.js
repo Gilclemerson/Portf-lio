@@ -37,3 +37,28 @@ function abrirQuiz(id){
 
     document.getElementById(id).classList.remove('hide')
 }
+
+
+
+// barra de progresso
+function atualizarProgresso(atual, total) {
+    const quizAtivo = document.querySelector(
+      '#quiz-web:not(.hide), #quiz-portugues:not(.hide), #quiz-matematica:not(.hide)'
+    );
+  
+    if (!quizAtivo) return;
+  
+    const circle = quizAtivo.querySelector('.progress-circle');
+    const text = quizAtivo.querySelector('.progress-text');
+  
+    if (!circle || !text) return;
+  
+    const porcentagem = atual / total;
+    const graus = Math.round(porcentagem * 360);
+  
+    circle.style.background =
+      `conic-gradient(#ff9800 ${graus}deg, #333 0deg)`;
+  
+    text.textContent = `${atual}/${total}`;
+  }
+  
