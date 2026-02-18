@@ -20,6 +20,7 @@ for ( let i = PerguntasWeb.length -1; i > 0; i--){
        const temp = PerguntasWeb[i];
        PerguntasWeb[i]= PerguntasWeb[indiceAleatorio];
        PerguntasWeb[indiceAleatorio] = temp;
+       
 
 }
 }
@@ -27,9 +28,14 @@ for ( let i = PerguntasWeb.length -1; i > 0; i--){
 // Fluxo completo do quiz
 startBtn.addEventListener("click", () =>{
   embaralharPerguntasWeb(questionsWeb)
+  currentQuestion = 0;
+  score = 0;
+  atualizarProgresso( 1, questionsWeb.length);
+
  startScreen.classList.add("hide"); // esconde a tela
  quizCard.classList.remove("hide"); // mostra o quiz
  showQuestion(); // chama a função que carregar as perguntas
+ 
 
 });
 
@@ -38,7 +44,10 @@ function showQuestion() {
     nextBtn.classList.add("hide"); // esconde o botão antigo
     answersEl.innerHTML = ""; // apaga respostas antigas
 
+    atualizarProgresso(currentQuestion + 1, questionsWeb.length);
+
     //pega a pergunta atual pelo indice
+    
     const q = questionsWeb[currentQuestion];
     questionEl.textContent = q.question;
 

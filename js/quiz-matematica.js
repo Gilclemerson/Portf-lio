@@ -23,6 +23,9 @@ function embaralharPerguntasMt(perguntasMt){
 
 iniciarMt.addEventListener("click", () =>{
   embaralharPerguntasMt(questoesMt)
+  questaoAtualMt = 0
+  ptMt = 0
+  atualizarProgresso(1, questoesMt.length)
   telaInicalMt.classList.add("hide")
   quizCardMt.classList.remove("hide")
    mostraQuestoesMt();
@@ -32,7 +35,7 @@ function mostraQuestoesMt(){
   comentarioMt.textContent ="";
   proximoMt.classList.add("hide");
   respostasMtEl.innerHTML= "";
-
+  atualizarProgresso( questaoAtualMt + 1, questoesMt.length);
 const questaoAtual = questoesMt[questaoAtualMt];
 questoesMtEl.textContent = questaoAtual.pergunta;
 

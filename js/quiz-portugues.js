@@ -23,6 +23,9 @@
 
   startPt.addEventListener("click", () => {
     embaralharPerguntasPt(questionsPt)
+    currentQuestionPt = 0;
+    pontuacaoPt = 0;
+    atualizarProgresso( 1, questionsPt.length);
     telaInicialPt.classList.add("hide");
     quizCardPt.classList.remove("hide");
     showQuestionPt();
@@ -35,6 +38,8 @@
 
     const q = questionsPt[currentQuestionPt];
     questionElPt.textContent = q.question;
+    
+    atualizarProgresso(currentQuestionPt + 1, questionsPt.length);
 
     q.answers.forEach((answer, index) => {
       const btn = document.createElement("button");
