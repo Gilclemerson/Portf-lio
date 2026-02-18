@@ -15,6 +15,19 @@
 </head>
 
 <body>
+<div id="quiz-time-screen">
+<div id="quiz-time-card">
+
+    <div class="logo">
+        <span>?</span>
+    </div>
+
+    <h1>Quiz Time</h1>
+    <button id="enter-quiz">Iniciar Quiz</button>
+</div>
+
+</div>
+
  <header>
     <button id="toggle-theme" aria-label="Alternar tema">
         🌙
@@ -35,8 +48,27 @@
             </ul>
         </nav>
     </header>
+
+    <main class="app">
+
+    <div class="center">
+
+<div class="quiz-menu">
+
+<h1>Quiz time</h1>
+<p>Escolha um tema</p>
+
+<button onclick="abrirQuiz('quiz-web')">Desenvolvimento Web</button>
+<button onclick="abrirQuiz('quiz-portugues')">Português</button>
+<button onclick="abrirQuiz('quiz-matematica')">Matemática</button>
+
+</div>
+
+</div>
+
+
     
-    <div class="container" id="quiz-web">
+    <div class="container hide" id="quiz-web">
               <!-- Tela inicial -->
         <div id="start-screen">
            
@@ -65,7 +97,7 @@
  </div>
 
 
-<div class="caixa" id="quiz-portugues" >
+<div class="caixa hide" id="quiz-portugues" >
     <!-- Tela inicial -->
 <div id="tela-inicial">
   <h1>Português </h1>
@@ -97,7 +129,7 @@
 
 
 
-<div class="recipiente" id="quiz-matematica" >
+<div class="recipiente hide" id="quiz-matematica" >
     <!-- Tela inicial -->
 <div id="tlmt">
   <h1>Matemática </h1>
@@ -136,6 +168,8 @@
 
 
 <script src="js/base.js"></script>
+
+</main>
 
 </body>
 </html>
