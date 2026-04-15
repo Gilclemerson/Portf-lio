@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/conversor.css">
+    
+    <title>Conversor de Base numéricas</title>
+
+</head>
+<body>
+  <h1>Conversor de Bases numéricas</h1>
+  <input type="text" id="numero" placeholder="Digite um número">
+  
+  <select id="baseOrigem">
+  <option value="2">Binário</option>
+  <option value="8">Octal</option>
+  <option value="10" selected>Decimal</option>
+  <option value="16">Hexadecimal</option>
+</select>
+  
+  <select id="baseDestino">
+  <option value="2">Binário</option>
+  <option value="8">Octal</option>
+  <option value="10">Decimal</option>
+  <option value="16">Hexadecimal</option>
+  </select>
+
+  <button  onclick="converter()">Converter</button>
+  <p id="resultado"></p>
+<script src="js/conversor.js"></script>
+</body>
+</html>
