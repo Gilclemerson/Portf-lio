@@ -6,11 +6,38 @@ body{
 /*caixa de perguntas */
 .container{
     max-width:700px;
-    margin:50px auto;
-    background:rgba(52, 12, 231, 0.384);
-    padding:20px;
-    border-radius:8px;
+    margin:100px auto;
+    padding:50px;
+    border-radius:20px;
     text-align:center;
+}
+
+
+/*Card principal*/
+#start-screen
+{
+    background: #1e1e1e;
+    color:#fff;
+    width:700px;
+    height:200px;
+    margin:100px auto;
+    padding:50px;
+    border-radius:20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    text-align: center;
+    
+}
+#quiz-card,
+#result-screen
+{
+    background: #1e1e1e;
+    color:#fff;
+    width:700px;
+    padding:25px;
+    border-radius:20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    text-align: center;
+    
 }
 
 /*botões com as alternativas */
@@ -23,11 +50,6 @@ button{
     font-size:16px;
 }
 
-/*botão de iniciar o quiz */
-#start-btn{
-    width: 100px;
-    padding:10px;
-}
 
 
 /*botão de passar para a proxima pergunta do quiz */
@@ -49,3 +71,29 @@ button{
     display:none;
 }
 
+
+
+/*barra de progresso*/
+.progress-wrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.progress-circle{
+    width: 72px;
+    height: 72px ;
+    border-radius: 50%;
+    background: conic-gradient(#ff9800 0deg, #333 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.4s ease;
+}
+
+.progress-circle span{
+    font-size:14px;
+    font-weight:600px;
+    color:#fff;
+}
+  

@@ -2,16 +2,59 @@
 /** caixa de perguntas quiz-3  */
 .recipiente{
     max-width:700px;
-    margin:50px auto;
-    background:rgba(52, 12, 231, 0.384);
-    padding:20px;
+    margin:125px auto;
+    padding:70px;
     border-radius:8px;
     text-align:center;
 }
+
+
+#tlmt{
+    background: #1e1e1e;
+    color:#fff;
+    width:700px;
+    padding:50px;
+    border-radius:20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+#card-quiz-3{
+    background: #1e1e1e;
+    color:#fff;
+    width:700px;
+    padding:50px;
+    border-radius:20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    text-align: center; 
+}
+
+#res{
+    background: #1e1e1e;
+    color:#fff;
+    width:700px;
+    padding:50px;
+    border-radius:20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    text-align: center;
+    
+}
+
+/*Perguntas e resposta*/
+h1, h2{
+    margin-bottom: 15px;
+}
+
+#answers-mt button{
+    margin-bottom:10px;
+    text-align: center;
+  }
+
+
 /** botão iniciar  */
 #bi{
-    width: 100px;
-    padding:10px;
+    width: 700px;
+    padding:20px;
     
 }
 

@@ -1,0 +1,55 @@
+.quiz-menu{
+    background:#1e1e1e;
+    color:#fff;
+    width: 500px;
+    padding:50px;
+    border-radius:20px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  
+    
+  }
+  
+  .center {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  .quiz-menu h1{
+        margin-bottom:10px;
+  }
+  
+  .quiz-menu p{
+      margin-bottom:20px;
+      font-size:14px;
+      color: #ccc;
+  }
+  
+  .quiz-menu button{
+      margin-bottom:12px;
+  }
+  .hide {
+      display: none;
+    }
+  
+
+    /*botões no estilo do mockup*/
+button{
+    width: 100%;
+    padding:12px;
+    margin-top:12px;
+    background:#2b2b2b;
+    color:#fff;
+    border:none;
+    border-radius:12px;
+    font-size:15px;
+    cursor:pointer;
+    transition:0.3s;
+   }
+   
+   button:hover{
+   background:#ff9800;
+   color:#000;
+   }

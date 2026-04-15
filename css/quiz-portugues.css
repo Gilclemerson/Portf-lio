@@ -2,16 +2,45 @@
 .caixa{
     max-width:700px;
     margin:50px auto;
-    background:rgba(52, 12, 231, 0.384);
-    padding:20px;
-    border-radius:8px;
+    padding:100px;
+    border-radius:50px;
     text-align:center;
 }
 
+#tela-inicial{
+    background: #1e1e1e;
+    color:#fff;
+    width:700px;
+    padding:50px;
+    border-radius:20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+#quiz-2-card{
+    background: #1e1e1e;
+    color:#fff;
+    width:700px;
+    padding:50px;
+    border-radius:20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+#resultado{
+    background: #1e1e1e;
+    color:#fff;
+    width:700px;
+    padding:50px;
+    border-radius:20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    text-align: center;
+}
 
 /*botão de iniciar o quiz-2 */
 #btn{
-    width: 100px;
+    width: 700px;
+    height:60px;
     padding:10px;
     
     
@@ -29,10 +58,11 @@
 button{
     display:block;
     width:700px;
-    margin:8px 0;
+    margin:18px 0;
     padding:20px;
     cursor: pointer;
     font-size:16px;
+
 }
 
 
@@ -46,5 +76,6 @@ button{
 }
 .hide{
     display:none;
-
 }
+
+
