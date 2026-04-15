@@ -1,22 +1,3 @@
-// botão para escolher tema
-const button = document.getElementById("toggle-theme");
-const body = document.body;
-
-const savedTheme = localStorage.getItem("theme");
-if(savedTheme === "dark"){
-    body.classList.add("dark")
-    button.textContent = "☀️";
-}
-
-button.addEventListener("click", () =>{
-    body.classList.toggle("dark");
-
-    const isDark = body.classList.contains("dark");
-
-    button.textContent = isDark ? "☀️" : "🌙";
-    localStorage.setItem("theme", isDark ? "dark" : "light");
-});
-
 
 // tela inicial do quiz
 const enterQuiz = document.getElementById("enter-quiz");
@@ -26,7 +7,7 @@ enterQuiz.addEventListener("click", () =>{
 });
 
 // menu do quiz
-const quizzes = ['quiz-web','quiz-portugues','quiz-matematica'];
+const quizzes = ['quiz-dev-web','quiz-portugues','quiz-matematica'];
 function abrirQuiz(id){
     document.querySelector('.quiz-menu').classList.add('hide')
 
@@ -43,7 +24,7 @@ function abrirQuiz(id){
 // barra de progresso
 function atualizarProgresso(atual, total) {
     const quizAtivo = document.querySelector(
-      '#quiz-web:not(.hide), #quiz-portugues:not(.hide), #quiz-matematica:not(.hide)'
+      '#quiz-dev-web:not(.hide), #quiz-portugues:not(.hide), #quiz-matematica:not(.hide)'
     );
   
     if (!quizAtivo) return;

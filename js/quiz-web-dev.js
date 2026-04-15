@@ -44,7 +44,6 @@ function showQuestion() {
     nextBtn.classList.add("hide"); // esconde o botão antigo
     answersEl.innerHTML = ""; // apaga respostas antigas
 
-    atualizarProgresso(currentQuestion + 1, questionsWeb.length);
 
     //pega a pergunta atual pelo indice
     
@@ -65,6 +64,7 @@ function showQuestion() {
 
     });
 }
+
 
 // verificas as respostas
 function selectAnswer(selectedButton, index){

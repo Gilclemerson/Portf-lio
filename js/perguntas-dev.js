@@ -39,87 +39,8 @@ const questionsWeb = [
       ],
       correct: 2
     },
-    {
-      question: "Qual método JavaScript é usado para localizar um elemento HTML pelo seu id?",
-      answers: [
-        "getElementByClass()",
-        "querySelectorAll()",
-        "getElementByName()",
-        "getElementById()"
-      ],
-      correct: 3
-    },
-    {
-      question: "Qual propriedade usamos para alterar o conteúdo interno de um elemento HTML usando JavaScript?",
-      answers: [
-        "style",
-        "value",
-        "innerHTML",
-        "className"
-      ],
-      correct: 2
-    },
-    {
-      question: "Qual propriedade JavaScript usamos para alterar o tamanho da fonte (font-size) de um elemento HTML?",
-      answers: [
-        "element.fontSize",
-        "element.style.font",
-        "element.style.fontSize",
-        "element.textSize"
-      ],
-      correct: 2
-    },
-    {
-      question: "Qual propriedade CSS (acessada pelo JavaScript) usamos para ocultar ou exibir um elemento HTML?",
-      answers: [
-        "visibility",
-        "opacity",
-        "display",
-        "position"
-      ],
-      correct: 2
-    },
-    {
-      question: "JavaScript e Java são a mesma linguagem?",
-      answers: [
-        "Sim, são apenas nomes diferentes para a mesma linguagem",
-        "Sim, JavaScript é uma versão mais simples do Java",
-        "Não, são linguagens diferentes com propósitos diferentes",
-        "Não, mas funcionam exatamente da mesma forma"
-      ],
-      correct: 2
-    },
-    {
-      question: "Quem criou o JavaScript e em que ano ele foi inventado?",
-      answers: [
-        "Tim Berners-Lee em 1990",
-        "Brendan Eich em 1995",
-        "Bill Gates em 2000",
-        "Mark Zuckerberg em 2004"
-      ],
-      correct: 1
-    },
-    {
-      question: "É necessário baixar ou instalar o JavaScript para usá-lo?",
-      answers: [
-        "Sim, é necessário instalar no computador",
-        "Sim, é preciso baixar um plugin",
-        "Não, pois os navegadores já vêm com JavaScript",
-        "Não, pois ele funciona apenas no servidor"
-      ],
-      correct: 2
-    },
-    {
-      question: "Qual é o papel do JavaScript em relação ao HTML e ao CSS?",
-      answers: [
-        "Criar a estrutura da página",
-        "Definir o estilo visual da página",
-        "Adicionar interatividade e comportamento à página",
-        "Substituir o HTML e o CSS"
-      ],
-      correct: 2
-    }
-  ];
+
+  ]
   
 
 

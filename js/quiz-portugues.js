@@ -38,8 +38,7 @@
 
     const q = questionsPt[currentQuestionPt];
     questionElPt.textContent = q.question;
-    
-    atualizarProgresso(currentQuestionPt + 1, questionsPt.length);
+  
 
     q.answers.forEach((answer, index) => {
       const btn = document.createElement("button");
