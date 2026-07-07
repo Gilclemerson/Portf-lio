@@ -1,59 +1,62 @@
 /* Tela inicial do quiz time*/
 #quiz-time-screen{
-    position: fixed;
-    inset: 0;
-    background:#d6b65a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
+position: fixed;
+inset: 0;
+background:#d6b65a;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 999;
 }
 
 .quiz-time-card{
-    background:#1e1e1e;
-    width: 320px;
-    padding:40px 25px;
-    border-radius: 25px;
-    text-align: center;
-    box-shadow:0 25px 50px rgba(0,0,0,0.4);
+background:#1e1e1e;
+width: 320px;
+padding:40px 25px;
+border-radius: 25px;
+text-align: center;
+box-shadow:0 25px 50px rgba(0,0,0,0.4);
 }
 
 .quiz-time-card h1{
-    color:#fff;
-    margin:20px 0;
-    font-size:26px;
+color:#fff;
+margin: 20px 0;
+font-size: 26px;
 }
 /*logo*/
 .logo{
-    width: 290px;
-    height:290px;
-    margin:0 auto;
-    border-radius: 20px;
-    background: linear-gradient(135deg, #ff9800, #ff5722);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+width: 80px;
+height: 80px;
+margin:0 auto;
+border-radius: 16px;
+background:  #ff9800;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
 .logo span{
-    font-size: 40px;
-    color: #000;
-    font-weight: bold;
+font-size: 40px;
+color: #000;
+font-weight: bold;
 }
 /*botão*/
 
 #enter-quiz{
 margin-top: 30px;
+width: 100%;
+border: none;
 background:#2b2b2b;
 color: #fff;
-padding:14px;
-border-radius:14px;
-font-size:16px;
-transition:0.3s;
+padding: 14px;
+border-radius: 14px;
+font-size: 16px;
+transition: 0.3s;
+cursor: pointer;
 }
 
 #enter-quiz:hover{
-    background:#ff9800;
-    color:#000;
+background:#ff9800;
+color:#000;
 }
