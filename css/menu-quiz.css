@@ -1,3 +1,8 @@
+
+body{
+    background: #111827;
+    margin: 0;
+}
 .quiz-menu{
     background:#1e1e1e;
     color:#fff;
@@ -27,19 +32,19 @@
       color: #ccc;
   }
   
-  .quiz-menu button{
-      margin-bottom:12px;
-  }
   .hide {
       display: none;
     }
   
 
     /*botões no estilo do mockup*/
-button{
+.btn-tema{
+    display: block;
+    text-decoration: none;
+    text-align: center;
     width: 100%;
     padding:12px;
-    margin-top:12px;
+    margin:12px 0;
     background:#2b2b2b;
     color:#fff;
     border:none;
@@ -49,7 +54,12 @@ button{
     transition:0.3s;
    }
    
-   button:hover{
+   .btn-tema:hover{
    background:#ff9800;
    color:#000;
+   }
+
+   .btn-tema:focus-visible{
+       outline: 2px solid #ff9800;
+       outline-offset: 2px;
    }
