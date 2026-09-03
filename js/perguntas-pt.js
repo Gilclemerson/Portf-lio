@@ -1,4 +1,4 @@
-const questionsPt = [
+const quizQuestions = [
   {
     question: " O que o acento agudo (´) indica e em quais vogais ele pode ser usado?",
     answers: [

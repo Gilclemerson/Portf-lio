@@ -1,4 +1,4 @@
-const questionsWeb = [
+const quizQuestions = [
     {
       question: "Qual linguagem roda no navegador?",
       answers: ["Java", "C", "Python", "JavaScript"],

@@ -1,41 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/quiz-matematica.css">
+    <link rel="stylesheet" href="../css/quiz.css">
     <title>Matemática</title>
 </head>
 <body>
-    <div class="recipiente " >
+   
+
+    <div class="container" >
         <!-- Tela inicial -->
-    <div id="tlmt">
+    <div id="start-screen">
       <h1>Matemática </h1>
       <p>Teste seus conhecimentos respondendo às perguntas.</p>
-      <button id="bi">Iniciar</button>
+      <button id="start-btn">Iniciar</button>
     </div>
     
     <!-- Card do quiz -->
-    <div id="card-quiz-3" class="hide">
-    
-    <h2 id="question-mt"></h2>
-    <div id="answers-mt"></div>
-    <p id="feedback-mt"></p>
-    <button id="px" class="hide">Próxima</button>
+    <div id="quiz-card" class="hide">
+       <div class="progress-wrap">
+       <div class="progress-circle">
+        <span class="progress-text"></span>
+       </div>
+      </div>
+    <h2 id="question"></h2>
+    <div id="answers"></div>
+    <p id="feedback"></p>
+    <button id="next-btn" class="hide">Próxima</button>
     
     </div>
     
     <!-- Tela final -->
     
-    <div id="res" class="hide">
+    <div id="result-screen" class="hide">
     <h2>Resultado Final</h2>
-    <p id="pt"></p>
+    <p id="score"></p>
     <button onclick="location.reload()">Reiniciar</button>
     </div>
     
     </div>
-    <script src="../js/perguntas-mt.js"></script>
-    <script src="../js/quiz-matematica.js"></script>
-<script src="../js/base.js"></script>
+    <script src="../js/perguntas-matematica.js"></script>
+    <script src="../js/quiz-engine.js"></script>
+    <script src="../js/base.js"></script>
 </body>
 </html>
