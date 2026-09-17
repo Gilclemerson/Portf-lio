@@ -3,6 +3,10 @@ body{
     background: #ece6e6dc;
 }
 
+.back-link{
+    color: #fff;
+}
+
 /*caixa de perguntas */
 .container{
     max-width:700px;

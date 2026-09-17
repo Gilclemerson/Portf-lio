@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quiz de desenvolvimento web para testar seus conhecimentos com perguntas interativas.">
    <link rel="stylesheet" href="../css/quiz.css">
   
     <title>Desenvolvimento Web</title>
@@ -12,22 +13,23 @@
     <div class="container">
         <!-- Tela inicial -->
   <div id="start-screen">
-     
-      <h1>Desenvolvimento Web </h1>
+      <h1>Desenvolvimento Web</h1>
       <p>Teste seus conhecimentos respondendo às perguntas.</p>
       <button id="start-btn">Iniciar</button>
+
+      <a href="../index.html" class="back-link">← Voltar ao portfólio</a>
   </div>
 
   <!-- Card do quiz -->
 <div id="quiz-card" class="hide">
     <div class="progress-wrap">  
     <div class="progress-circle">
-    <span class="progress-text"></span>
+    <span class="progress-text" aria-live="polite"></span>
     </div>
     </div>
    <h2 id="question"></h2>
    <div id="answers"></div>
-   <p id="feedback"></p>
+   <p id="feedback" aria-live="polite"></p>
    <button id="next-btn" class="hide">Próxima</button>
 
 </div>
@@ -37,11 +39,13 @@
 <div id="result-screen" class="hide">
    <h2>Resultado Final</h2>
    <p id="score"></p>
-   <button onclick="location.reload()">Reiniciar</button>
+   <button id="restart-btn">Reiniciar</button>
 </div>
 
 </div>
 
+
+    
 <script src="../js/perguntas-dev.js"></script>
 <script src="../js/quiz-engine.js"></script>
 <script src="../js/base.js"></script>

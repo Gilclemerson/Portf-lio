@@ -8,6 +8,13 @@ if(enterQuiz){
 });
 }
 
+const restartBtn = document.getElementById("restart-btn");
+if(restartBtn){
+  restartBtn.addEventListener("click", () =>{
+     location.reload();
+  });
+
+}
 
 // barra de progresso
 function atualizarProgresso(atual, total) {
